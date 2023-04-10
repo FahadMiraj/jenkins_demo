@@ -59,6 +59,12 @@ export const config = {
         maxInstances: 5,
         //
         browserName: 'chrome',
+        //port:5555,
+        'goog:chromeOptions': {
+            args: ['--whitelisted-ips= 127.0.0.1,192.168.0.102'],
+            args: ['--no-sandbox'],
+            args: ['--headless', '--disable-gpu']
+          },
         acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
@@ -112,7 +118,24 @@ export const config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: [/*'chromedriver',*/'selenium-standalone'],
+    services: [/*'chromedriver','geckodriver',*/'selenium-standalone'],
+    /*services: [
+        [
+            'geckodriver',
+            // service options
+            {
+                // OPTIONAL: Arguments passed to geckdriver executable.
+                // Check geckodriver --help for all options. Example:
+                // ['--log=debug', '--binary=/var/ff50/firefox']
+                // Default: empty array
+                args: ['--log=info'],
+
+                // The path where the output of the Geckodriver server should
+                // be stored (uses the config.outputDir by default when not set).
+                outputDir: './logs'
+            }
+        ]
+    ],*/
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber

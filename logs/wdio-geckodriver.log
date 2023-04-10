@@ -1,0 +1,25 @@
+1681162449502	geckodriver	INFO	Listening on 127.0.0.1:37687
+1681162449700	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileZkGnNv"
+Gtk-Message: 02:34:09.774: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1681162455999	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile896G9u"
+Gtk-Message: 02:34:16.079: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1681162457486	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileBp56E0"
+Gtk-Message: 02:34:17.565: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1681162458871	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile7vjYJs"
+Gtk-Message: 02:34:18.951: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.

@@ -8,7 +8,9 @@
     "@wdio/selenium-standalone-service": "^8.7.0",
     "@wdio/spec-reporter": "^8.7.0",
     "chromedriver": "^112.0.0",
-    "wdio-chromedriver-service": "^8.1.1"
+    "geckodriver": "^3.2.0",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-geckodriver-service": "^4.1.1"
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js"
