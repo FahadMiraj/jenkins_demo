@@ -1,6 +1,6 @@
 {
   "name": "my-new-project",
-  "type": "module",
+  "type": "commonjs",
   "devDependencies": {
     "@wdio/allure-reporter": "^8.7.0",
     "@wdio/cli": "^8.7.0",
@@ -14,6 +14,10 @@
     "wdio-geckodriver-service": "^4.1.1"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.js"
+    "wdio": "wdio run ./wdio.conf.js",
+    "allure-report": "allure generate --clean allure-results && allure open"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.21.0"
   }
 }
