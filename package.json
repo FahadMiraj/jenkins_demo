@@ -1,6 +1,5 @@
 {
   "name": "my-new-project",
-  "type": "commonjs",
   "devDependencies": {
     "@wdio/allure-reporter": "^8.7.0",
     "@wdio/cli": "^8.7.0",
