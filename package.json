@@ -1,5 +1,11 @@
 {
   "name": "my-new-project",
+  "version": "0.2.0",
+  "description": "",
+  "private": true,
+  "keywords": [],
+  "author": "Fahad Miraj",
+  "license": "ISC",
   "devDependencies": {
     "@wdio/allure-reporter": "^8.7.0",
     "@wdio/cli": "^8.7.0",

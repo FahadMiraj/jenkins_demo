@@ -63,8 +63,8 @@ export const config = {
         //port:5555,
         'goog:chromeOptions': {
             args: ['--whitelisted-ips= 127.0.0.1,192.168.0.102'],
-            args: ['--no-sandbox'],
-            args: ['--headless','--disable-gpu']
+            //args: ['--no-sandbox'],
+            //args: ['--headless','--disable-gpu']
           },
         acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
@@ -324,7 +324,7 @@ export const config = {
         return new Promise((resolve, reject) => {
             const generationTimeout = setTimeout(
                 () => reject(reportError),
-                5000)
+                15000)
 
             generation.on('exit', function(exitCode) {
                 clearTimeout(generationTimeout)
