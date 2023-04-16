@@ -1,2 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Apr 17 01:09:52 PKT 2023","Mon Apr 17 01:10:09 PKT 2023","17389","","My Login application","","","","should login with valid credentials",""

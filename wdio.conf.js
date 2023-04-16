@@ -1,4 +1,5 @@
-const allure = require('allure-commandline')
+//const allure = require('allure-commandline')
+import allure from 'allure-commandline'
 export const config = {
     //
     // ====================
