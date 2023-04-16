@@ -1,6 +1,7 @@
 {
   "name": "my-new-project",
   "version": "0.2.0",
+  "type":"commonjs",
   "description": "",
   "private": true,
   "keywords": [],
